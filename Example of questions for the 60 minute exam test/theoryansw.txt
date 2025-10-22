@@ -1,0 +1,35 @@
+How can we determine the specific size of a particular data type?
+How do we put the header files of other modules or libraries into the source file of the program ?
+How do we approach data fields of the composite data type (struct) in C?
+Describe how the function int doit(int r) is called and how are the data passed to it.
+How do you dynamically allocate memory for storing a sequence of 20 values of the data type int?
+How do you increase a dynamic array to save ten more items?
+What is the NULL identifier?
+How are text strings represented in C?
+What represents the void type?
+Explain the difference between the variable and the pointer to a variable.
+What are the characters used in C for output control?
+How is the process of running a program implemented in C language (under a full operating system)?
+How to get a pointer to a variable defined as double d = 12.3;
+How is the pointer and array [] different ?
+What is the difference between a pointer to a constant and a constant pointer?
+Define a variable length array s of the size n, which is provided as a command line argument.
+Describe briefly the struct type used in C.
+What C compilers do you know?
+Describe the process of creating an executable program from C source files.
+Explain the difference between the variable and the pointer to a variable?
+Does const in the variable definition guarantee that it cannot change?
+For what is the keyword 'do' used? Make a short example.
+For what is the keyword 'while' used? Make a short example.
+For what is the keyword 'for' used? Make a short example.
+For what is the keyword 'if' used? Make a short example.
+For what is the keyword 'case' used? Make a short example.
+For what is the keyword 'switch' used? Make a short example.
+For what is the keyword 'break' used? Make a short example.
+How do you create a pointer to a variable, such as int?
+What is the program return value that indicates a successful execution and why?
+How do you dynamically allocate memory in C language?
+How do you release dynamically allocated memory in C language?
+Define the diagonal (unit) matrix 3×3 as a 2D int array.
+What is the difference between a thread and a process? 
+What is a critical section? 
