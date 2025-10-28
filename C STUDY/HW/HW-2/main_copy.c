@@ -125,11 +125,6 @@ int main(int argc, char **argv)
         free_raycast_result(&cells, count);
     }
 
-    if (!feof(stdin)) {
-        fprintf(stderr, "ERROR: invalid sensor data\n");
-        return 102;
-    }
-
     for (int r = 0; r < N_h; r++) {
         for (int c = 0; c < N_w; c++) {
             char ch;
