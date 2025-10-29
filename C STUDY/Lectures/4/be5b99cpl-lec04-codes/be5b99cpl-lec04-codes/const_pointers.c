@@ -50,3 +50,16 @@ int main(int argc, char *argv[])
    }
    return 0;
 }
+
+
+// Pointer to a constant variable (value)
+// *ptr: 10
+// *ptr: 11
+// *ptr: 20
+
+// Constant pointer
+// v: 10 *ptr: 10
+// v: 11
+
+// Constant pointer
+// v: 10 *ptr: 10

@@ -10,3 +10,10 @@ int main(void)
    }
    return 0;
 }
+
+// Size of array: 20
+// Item[0] = 0
+// Item[1] = 1
+// Item[2] = 2
+// Item[3] = 3
+// Item[4] = 4

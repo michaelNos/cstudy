@@ -11,3 +11,8 @@ int main(void)
    printf("String str0 = '%s'\n", str0);
    return 0;
 }
+
+// String str0 = 'CPL'
+// Enter 4 chars: 3242 
+// You entered string '3242'
+// String str0 = 'CPL'

@@ -24,3 +24,12 @@ int main(void)
 
    return 0;
 }
+
+// Size of m: 36 == 36
+//   1  2  3
+//   4  5  6
+//   7  8  9
+// m[0][0]=1 m[1][0]=4
+// pm[0]=1 pm[3]=4
+// Size of p: 8
+// Size of *p: 12

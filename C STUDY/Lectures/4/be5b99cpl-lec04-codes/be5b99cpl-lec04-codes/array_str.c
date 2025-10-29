@@ -18,3 +18,12 @@ int main(void)
    }
    return 0;
 }
+
+// Size of str 4
+// Size of  s  3
+// str '123'
+//  s  '567123'
+
+// Text string as pointer to char
+// Size of ps  8
+//  ps 'ABC'

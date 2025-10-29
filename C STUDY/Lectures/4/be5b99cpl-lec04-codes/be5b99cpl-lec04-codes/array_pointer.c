@@ -20,3 +20,14 @@ int main(void)
 
    return 0;
 }
+
+// a[0] =  1   b[0] =  0
+// a[1] =  2   b[1] =  1
+// a[2] =  3   b[2] =  5
+// a[3] =  4   b[3] = 10
+
+// Print content of the array 'a' using pointer arithmetic
+// a[0] =  1   p+0 =  1
+// a[1] =  2   p+1 =  2
+// a[2] = 99   p+2 = 99
+// a[3] =  4   p+3 =  4

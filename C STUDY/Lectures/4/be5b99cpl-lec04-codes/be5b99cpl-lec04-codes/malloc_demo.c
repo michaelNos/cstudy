@@ -46,3 +46,8 @@ int main(int argc, char *argv[])
    deallocate_memory((void**)&int_array);
    return 0;
 }
+
+// Array[0] = 1804289383
+// Array[1] = 846930886
+// Array[2] = 1681692777
+// Array[3] = 1714636915

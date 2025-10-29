@@ -17,3 +17,8 @@ int main(void)
 
    return 0;
 }
+
+// sizeof(array) = 8, n = 3 -- sizeof(local_array) = 12
+// array[0]=1 local_array[0]=2
+// array[1]=2 local_array[1]=4
+// array[2]=3 local_array[2]=6

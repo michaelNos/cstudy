@@ -16,3 +16,6 @@ int main(int argc, char *argv[])
    fce(argc);
    return 0;
 }
+
+// sizeof(local_array) = 4
+// length of array = 1

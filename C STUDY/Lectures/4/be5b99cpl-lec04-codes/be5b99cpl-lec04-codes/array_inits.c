@@ -25,3 +25,23 @@ int main(void)
    print(m3, "m3 -- indexed initialization"); 
    return 0;
 }
+
+// Matrix m0 -- not initialized
+//    2   0-1075053569
+//    0-87994274332767
+//  100   04096
+
+// Matrix m1 -- initialized by rows, left to right
+//    1   2   3
+//    4   5   6
+//    7   8   9
+
+// Matrix m2 -- partially initialized
+//    1   2   3
+//    0   0   0
+//    0   0   0
+
+// Matrix m3 -- indexed initialization
+//    1   0   0
+//    0   2   0
+//    0   0   3

@@ -48,3 +48,5 @@ double do_nothing(int v)
 {
    return pi;
 }
+
+// Return value of the function 3.140000
