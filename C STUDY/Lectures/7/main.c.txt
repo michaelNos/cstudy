@@ -1,0 +1,54 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <errno.h>
+
+typedef struct{
+	char word[100];	
+	int number;	
+}SNumber;
+
+SNumber numArray[1000];
+int numberArraySize = 0;
+SNumber orderArray[1000];
+int orderArraySize = 0;
+
+int readFile(const char* name,SNumber *a)
+{
+	FILE* numbers = fopen(name,"r");
+	if (numbers == NULL){
+		int a = errno;
+		fprintf(stderr,"File %s did not open: %s\n",name,strerror(errno));
+		return 0;
+	}
+	int i = 0;
+	while (feof(numbers) == 0){
+		fscanf(numbers,"%s %i\n",a[i].word,&a[i].number);
+		i++;
+	}
+	fclose(numbers);
+	return i;
+}
+
+int main(int argc,char *argv[])
+{
+	int number;
+	int out = 0;
+
+	numberArraySize = readFile("numbers.txt",numArray);
+	orderArraySize = readFile("order.txt",orderArray);
+
+	for (int a = 1;a<argc;a++){
+		for (int i = 0;i<numberArraySize;i++)
+		{
+			if (strcmp(numArray[i].word,argv[a])==0) out += numArray[i].number;
+		}
+		for (int i = 0;i<orderArraySize;i++)
+		{
+			if (strcmp(orderArray[i].word,argv[a])==0) out *= orderArray[i].number;
+		}
+
+	}
+	printf("%i\n",out);
+	return 0;
+}
