@@ -9,6 +9,8 @@
 // | **simage.h** | Structure + function declarations |
 // | **simage.c** | Implementation of BMP load/save   |
 
+// Since each pixel has bpp bytes, one row size in bytes is: row_size = width * bpp;
+
 
 int main(int argc, char **argv)
 {
@@ -63,3 +65,19 @@ int main(int argc, char **argv)
     return 0;  
     // Program finished successfully.
 }
+
+// loop in a more explicit way
+// int row_size = x.width * x.bpp;
+
+// for (int i = 0; i < x.height; i++)
+// {
+//     int src_row    = i;                    // row in x
+//     int dest_row   = rearrangeArray[i];    // row in y
+
+//     int src_offset  = src_row  * row_size; // in bytes
+//     int dest_offset = dest_row * row_size; // in bytes
+
+//     memcpy(&y.data[dest_offset],
+//            &x.data[src_offset],
+//            row_size);
+// }
