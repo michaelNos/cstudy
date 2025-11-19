@@ -1,0 +1,10 @@
+romeo 366
+juliet 222
+nurse 158
+capulet 140
+friar 117
+shall 110
+mercutio 93
+benvolio 87
+tybalt 82
+lawrence 82
